@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>To-Do List</title>
-  <link rel="stylesheet" href="main.css">
-</head>
-<body>
-  <div class="container">
-    <h1>To-Do List</h1>
-    <input type="text" id="taskInput" placeholder="Enter a task...">
-    <button id="addTaskBtn">Add Task</button>
-    <ul id="taskList"></ul>
-  </div>
-  <script src="one.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg" href="assets/logo.svg">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+         <h1>To-Do List <img src="assets/icon.png"></h1>
+      </div>
+          <h3>Pick a category</h3>
+    <form id="category">
+          <input type="radio" name="category" id="business" value="Business" />
+          <label for="business">Business</label><br>
+
+          <input type="radio" name="category" id="personal" value="Personal" />
+          <label for="personal">Personal</label>
+    </form>
+    <div class="row">
+       <input type="text" id="taskInput" placeholder="Enter a task..." />
+        <button id="addTaskBtn">Add Task</button>
+          <ul id="taskList"></ul>
+    </div>
+    </div>
+    <script src="one.js"></script>
+  </body>
 </html>
