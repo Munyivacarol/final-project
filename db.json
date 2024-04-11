@@ -3,52 +3,133 @@
     {
       "id": "2",
       "title": "Attend networking event",
-      "completed": false
-    },
-    {
-      "id": "3",
-      "title": "Visit family",
-      "completed": false
+      "completed": false,
+      "category": "Business"
     },
     {
       "id": "4",
       "title": "Prepare presentation",
-      "completed": false
+      "completed": false,
+      "category": "Business"
     },
     {
       "id": "5",
       "title": "Go for a hike",
-      "completed": false
+      "completed": false,
+      "category": "Personal"
     },
     {
       "id": "6",
       "title": "Fix leaking faucet",
-      "completed": false
+      "completed": false,
+      "category": "Personal"
     },
     {
       "id": "6ab2",
       "title": "Plant some maize seedlings",
-      "completed": false
+      "completed": false,
+      "category": "Personal"
     },
     {
       "id": "c5d1",
       "title": "Go to Panama",
-      "completed": false
+      "completed": false,
+      "category": "Personal"
     },
     {
       "id": "2612",
       "title": "Open my coffee shop",
-      "completed": false
+      "completed": false,
+      "category": "Business"
     },
     {
       "id": "a9dd",
       "title": "Go for grand pa burial",
-      "completed": false
+      "completed": false,
+      "category": "Personal"
     },
     {
       "id": "54d7",
       "title": "Get a new dress for the party",
+      "completed": false,
+      "category": "Personal"
+    },
+    {
+      "id": "d573",
+      "title": "Attend kids meeting",
       "completed": false
+    },
+    {
+      "id": "c4b5",
+      "title": "TEESS",
+      "completed": false
+    },
+    {
+      "id": "111d",
+      "title": "Go to library",
+      "completed": false
+    },
+    {
+      "id": "ba49",
+      "title": "238983",
+      "completed": false
+    },
+    {
+      "id": "9d80",
+      "title": "32223323332",
+      "completed": false
+    },
+    {
+      "id": "a160",
+      "title": "2322323",
+      "completed": false
+    },
+    {
+      "id": "774e",
+      "title": "232323",
+      "completed": false
+    },
+    {
+      "id": "467c",
+      "title": "2",
+      "completed": false
+    },
+    {
+      "id": "9239",
+      "title": "2323",
+      "completed": false
+    },
+    {
+      "id": "d795",
+      "title": "Go shopping",
+      "completed": false
+    },
+    {
+      "id": "1ba8",
+      "title": "Go shopping",
+      "completed": false
+    },
+    {
+      "id": "660a",
+      "title": "go shopping",
+      "completed": false
+    },
+    {
+      "id": "4c40",
+      "title": "go to parties",
+      "completed": false
+    },
+    {
+      "id": "2e70",
+      "title": "Sell Onions",
+      "completed": false,
+      "category": "Business"
+    },
+    {
+      "id": "7347",
+      "title": "Train kids at skate school",
+      "completed": false,
+      "category": "Personal"
     }
   ]
 }

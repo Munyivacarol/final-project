@@ -1,7 +1,8 @@
 body {
     background-image: url(assets/todo.jpg);
-    background-size: contain;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    font-family: "Lobster", sans-serif;
+    font-weight: lighter;
   }
   
   .container {
@@ -17,19 +18,22 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    font-style: italic;
   }
   .todo-app h1 img{
-    width: 30px;
+    width: 20px;
     margin-left: 10px;
   }
   #category{
      display: flex;
-     align-items: center;
      padding: 0.5rem;
      background-color: #fff;
-     border-radius: 5px;
+     border-radius: 30px;
+     justify-content:space-evenly;
      cursor: pointer;
+  }
+  #navigate{
+    display: flex;
+    justify-content: space-around;
   }
   input[type="text"] {
     width: calc(100% - 20px);
@@ -40,7 +44,7 @@ body {
   }
   button {
     display: block;
-    width: calc(100% - 20px);
+    width: (100% - 20px);
     padding: 10px;
     background-color: #007bff;
     color: #fff;
