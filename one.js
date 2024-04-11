@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const taskInput = document.getElementById("taskInput");
   const addTaskBtn = document.getElementById("addTaskBtn");
   const taskList = document.getElementById("taskList");
-  let currentTaskType = "Personal"; // Global variable to store current task type
+  let currentTaskType = "Personal"; // Global variable which will the store current task type
 
   // Fetch tasks from db.json and display them
   fetchTasks(currentTaskType);

@@ -3,6 +3,7 @@ body {
     background-size: cover;
     font-family: "Lobster", sans-serif;
     font-weight: lighter;
+    padding-bottom: 50px;
   }
   
   .container {
@@ -79,6 +80,9 @@ body {
     float: right;
     color: #ff0000;
     cursor: pointer;
+  }
+  .bottom p {
+    text-align: center;
   }
   
   
