@@ -1,8 +1,8 @@
 # End of phase project.
 #### ** By:Carolyne Munyiva**
 ## PROJECT DESCRIPTION
-#### : To-Do List Application
--The To-Do application is a simple,yet effective web page that allows the user to:
+####  To-Do List Application
+The To-Do application is a simple,yet effective web page that allows the user to:
     -Add an item/activity to their list of to do.
     -Delete an activity they do not need on the list
     -Update/edit the tasks to their perfection.More of renaming the listed task
