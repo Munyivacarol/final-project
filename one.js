@@ -9,11 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Function to fetch tasks from db.json and display them
   function fetchTasks(listValue) {
-    fetch("db.json")
+    fetch("https://final-project-1-7ocl.onrender.com/tasks")
       .then((response) => response.json())
       .then((data) => {
         taskList.innerHTML = "";
-        data.tasks.forEach((task) => {
+        data.forEach((task) => {
           if (task.category == listValue) {
             displayTask(task);
           }
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const taskText = taskInput.value.trim();
     if (taskText !== "") {
       const newTask = { title: taskText, completed: false, category: currentTaskType }; // Include current task type in the object
-      fetch("http://localhost:3000/tasks", {
+      fetch("https://final-project-1-7ocl.onrender.com/tasks", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Function to delete a task
   function deleteTask(taskId) {
-    fetch(`http://localhost:3000/tasks/${taskId}`, {
+    fetch(`https://final-project-1-7ocl.onrender.com/tasks${taskId}`, {
       method: "DELETE",
     })
       .then((response) => {
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const newTitle = prompt("Edit task:", task.title);
     if (newTitle !== null && newTitle.trim() !== "") {
       const updatedTask = { ...task, title: newTitle.trim() };
-      fetch(`http://localhost:3000/tasks/${task.id}`, {
+      fetch(`https://final-project-1-7ocl.onrender.com/tasks${task.id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
