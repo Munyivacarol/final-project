@@ -16,11 +16,10 @@ The To-Do application is a simple,yet effective web page that allows the user to
     - Then run "json-server --watch db.json" to run our server.
     - The run your index.html by either using the "GO LIVE" extension or by double clicking of the index.html
     - And your application is running.
-       
-## Hosting
-  -I decided to use netlify to deploy my project as live link,
 
-  -The project can also be found on my github,using the link below:
+ ## Live link
+      Deployed Frontend can be accessed here [Blog](https://munyivacarol.github.io/final-project/) 
+      Deployed Backend can be accessed here [Blog](https://final-project-1-7ocl.onrender.com/tasks) 
 ## Known Bugs
     The application works perfectly well, no bugs.
 
