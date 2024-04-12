@@ -1,0 +1,25 @@
+{
+  "name": "to-dolist-data",
+  "version": "1.0.0",
+  "description": "A simple to-do list application",
+  "main": "one.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Munyivacarol/final-project.git"
+  },
+  "keywords": [
+    "task-list"
+  ],
+  "author": "carolyneMuniva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Munyivacarol/final-project/issues"
+  },
+  "homepage": "https://github.com/Munyivacarol/final-project#readme",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
